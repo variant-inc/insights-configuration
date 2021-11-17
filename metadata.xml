@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="http://www.okta.com/exk2np7meudvcEvlj5d7"
+  xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtjCCAp6gAwIBAgIGAXbzTCeTMA0GCSqGSIb3DQEBCwUAMIGbMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxHDAaBgNVBAMME29mZmljZS1kcml2ZXZhcmlhbnQxHDAaBgkq
+hkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wHhcNMjEwMTExMjExMjQzWhcNMzEwMTExMjExMzQyWjCB
+mzELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lz
+Y28xDTALBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRwwGgYDVQQDDBNvZmZpY2Ut
+ZHJpdmV2YXJpYW50MRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAlVXOH28Hjv27Jk3tTuFmDquDm+EpMLsBXgRffmSKmCH/zePR7a/4
+e2yjh4VzbgiOFeKCSipdcwr/3Af5VsZ5SfsTtNKI3jb/4RM9lSScFiMNvxyUI84i2f2Oxozj8Byu
+A97N7smlrywf9hBVOaggROepRYT5iEvhJ9UCiM+lFWufKIIPBidaRYJrD74Rnv7eeaNPIKWuVEco
+6h92mUObGFv/XDKfrtI3fqRKCjv1OF5WXPPQDuymZim+KpwCxqFKCS+qQ5RKSH6AXHlxXUPlMFI4
+Wqdt0qbqsapTamnXVVlsR9NevxvZ14XxEXsGMdKs1zZuWvnAuoTnyle2YgY2XQIDAQABMA0GCSqG
+SIb3DQEBCwUAA4IBAQCHw1PZ5+VgF+eiUpK8ASX6RiYWDolbA+HVut0v+G99H6TbeDaemgKEZkyV
+tSmqk5iG/Ulsalv9pKDWtTJQpchsy9leU5bb3me6/L3OmK+tnqZ2JMIukBOzzOvpaeLL0jC+80fJ
+dN25ekl1121C5Ibpj3k08yiojhxjwfF/i/cfLvDRMwoawwzDKEPdjLifV1y8uv6EXM9PjjVKTg1A
+KmBb91n9oiQ75uwawuL1cKGcMIheiWrQMAQbHH0SWkixYdi5+TJzTQqrDH7UiACVlX7XA2e2Odyt
+SyJ7g5uXBHdIExC2s7jLxIFH4l2VsBYL2uzdVc3C/ZA6rg7EI3XLaLG9</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://office-drivevariant.okta.com/app/office-drivevariant_fairwindsinsights_1/exk2np7meudvcEvlj5d7/sso/saml"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://office-drivevariant.okta.com/app/office-drivevariant_fairwindsinsights_1/exk2np7meudvcEvlj5d7/sso/saml"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
